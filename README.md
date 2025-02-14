@@ -14,10 +14,9 @@
 
 1. Create a new repository using this template.
 2. **Title:** Change the first line of this README to the name of your project.
-3. **Badges:** In the badges section above, change the repo name in each URL. If you are creating something other than a Rust crate, remove the crates.io and docs badges (and feel free to add more appropriate ones for your language).
-4. **Issue & PR Templates**: Review the files in `.github/ISSUE_TEMPLATE` and `.github/PULL_REQUEST_TEMPLATE`. Adapt them
+3. **Issue & PR Templates**: Review the files in [ISSUE_TEMPLATE](.github/ISSUE_TEMPLATE/) and [PULL_REQUEST_TEMPLATE](.github/PULL_REQUEST_TEMPLATE.md). Adapt them
    to suit your needs, removing or re-wording any sections that don't make sense for your use case.
-5. **CHANGELOG.md:**
+4. **CHANGELOG.md:**
 
 - Keep Unreleased section at the top to track upcoming changes.
 - At release time, move the Unreleased section changes into a new release version section.
