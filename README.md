@@ -18,12 +18,12 @@
    to suit your needs, removing or re-wording any sections that don't make sense for your use case.
 4. **CHANGELOG.md:**
 
-- Keep Unreleased section at the top to track upcoming changes.
-- At release time, move the Unreleased section changes into a new release version section.
-- Keep to the format and use semantic version for logs.
-- New change logs should come first after the Unrealeased section (see example).
+   - Keep Unreleased section at the top to track upcoming changes.
+   - At release time, move the Unreleased section changes into a new release version section.
+   - Keep to the format and use semantic version for logs.
+   - New change logs should come first after the Unrealeased section (see example).
 
-6. **Cleanup:** Remove this section of the README and any unused files from the repo.
+5. **Cleanup:** Remove this section of the README and any unused files from the repo.
 
 ## Contributing
 
@@ -35,4 +35,5 @@ Please also read our [Contributor Terms](CONTRIBUTING.md#contributor-terms) befo
 ### License
 
 By contributing to this project, you agree that your contributions will be licensed under its [MIT license](/LICENSE).
+
 Copyright (c) Special Man Global Solution LTD.

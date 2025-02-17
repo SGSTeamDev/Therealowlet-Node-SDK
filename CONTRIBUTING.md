@@ -56,7 +56,7 @@ Browse through our open issues and pick one that interests you. Feel free to com
 4. For functionality updates, document how to use the new feature.
 5. Use clear and meaningful commit messages.
 6. Complete all sections of the pull request template before submitting.
-7. Submit your pull request against the `staging` branch.
+7. Submit your pull request against the `dev` branch.
 8. A maintainer will review your submission and may request changes.
 
 For guidance on creating a pull request, visit [GitHub’s documentation](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
