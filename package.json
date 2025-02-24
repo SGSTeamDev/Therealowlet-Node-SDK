@@ -1,5 +1,5 @@
 {
-  "name": "@specialman/vtpass",
+  "name": "@specialman/therealowlet",
   "version": "1.0.0",
   "description": "Node JS SDK for VTpass APIs",
   "main": "app.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest --runInBand --detectOpenHandles --watchAll",
     "test-workflow": "jest --runInBand --detectOpenHandles",
-    "use": "eslint . && npm link && cd ../usage && npm link @specialman/vtpass && node script.js",
+    "use": "eslint . && npm link && cd ../usage && npm link @specialman/therealowlet && node script.js",
     "pub": "npm publish --access=public"
   },
   "repository": {
@@ -23,6 +23,14 @@
     "url": "https://github.com/SGSTeamDev/Therealowlet-Node-SDK/issues"
   },
   "homepage": "https://github.com/SGSTeamDev/Therealowlet-Node-SDK#readme",
+  "keywords": [
+    "social",
+    "boost",
+    "media",
+    "engagements",
+    "visibility",
+    "specialman"
+  ],
   "dependencies": {
     "axios": "^1.7.9",
     "dotenv": "^8.6.0"

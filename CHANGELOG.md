@@ -9,14 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] - Release Date
 
-<!-- ## [version] - Date -->
+[1.0.0] - 2025-02-24
+
 <!-- At release time, move the Unreleased section changes into a new release version section. -->
 
 <!-- ## [version] - CHANGE LOG DATE -->
 
 ### Added
 
-- New features go here in a bullet list
+- Get Balance
+- Get Services
+- Add Order
+- Get Oder Status
+- Cancel Order
+- Refill Order
+- Get Refill Status
 
 ### Changed
 
