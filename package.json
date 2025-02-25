@@ -1,7 +1,7 @@
 {
   "name": "@specialman/therealowlet",
   "version": "1.0.0",
-  "description": "Node JS SDK for VTpass APIs",
+  "description": "Node JS SDK for Therealowlet APIs",
   "main": "app.js",
   "directories": {
     "lib": "lib",

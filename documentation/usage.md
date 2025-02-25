@@ -143,7 +143,7 @@ const getStatusOfMultipleOrders = async () => {
 };
 ```
 
-**Example Response for Single Order:**
+**Example Response for Single Order Status:**
 
 ```json
 {
@@ -159,22 +159,31 @@ const getStatusOfMultipleOrders = async () => {
 }
 ```
 
-**Example Response for Multiple Orders:**
+**Example Response for Multiple Orders Status:**
 
 ```json
 {
   "status_code": 200,
   "message": "Successful",
-  "data": [
-    {
-      "order": 15159139,
-      "status": "Completed"
+  "data": {
+    "1": {
+      "charge": "0.27819",
+      "start_count": "3572",
+      "status": "Partial",
+      "remains": "157",
+      "currency": "USD"
     },
-    {
-      "order": 15223442,
-      "status": "Pending"
+    "10": {
+      "error": "Incorrect order ID"
+    },
+    "100": {
+      "charge": "1.44219",
+      "start_count": "234",
+      "status": "In progress",
+      "remains": "10",
+      "currency": "USD"
     }
-  ]
+  }
 }
 ```
 

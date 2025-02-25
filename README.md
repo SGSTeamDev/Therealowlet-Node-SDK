@@ -36,7 +36,7 @@ npm install @specialman/therealowlet
 
 ```javascript
 let therealowlet = require("@specialman/therealowlet");
-gsubz = gsubz("your_api_key");
+therealowlet = therealowlet("your_api_key");
 ```
 
 # Usage
